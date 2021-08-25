@@ -1,0 +1,43 @@
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.note-heading {
+  color: #0f172a;
+}
+.msg-container {
+  height: 50px;
+  width: 250px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  padding: 5px;
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.icon {
+  width: 6%;
+  margin-right: 5px;
+}
+
+.information-con {
+  background-color: #0b69ff;
+}
+.success-con {
+  background-color: #2dca73;
+}
+.warning-con {
+  background-color: #ffb800;
+}
+.error-con {
+  background-color: #ff0b37;
+}
